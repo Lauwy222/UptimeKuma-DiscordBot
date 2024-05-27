@@ -67,7 +67,8 @@
     ```
 
    Enter your Uptime Kuma Dashboard URL in `<YOUR_UPTIMEKUMA_URL>`([line 99](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Bot/index.js#L99)).
-   
+4. Adding a new group should be done in [line 13-17](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Bot/index.js#L13-L17)
+5. Color embed
     ```javascript
     let embed = new EmbedBuilder()
             .setTitle(`${category} Monitor`)
