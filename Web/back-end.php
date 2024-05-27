@@ -1,11 +1,10 @@
 <?php
 // Define the URL and API key for the metrics endpoint
 $url = '<yourURL>/metrics'; //your URL
-$username = ''; //leave empty
 // Retrieve an API key from the UptimeKuma dashboard here <yourURL>/settings/api-keys
 $password = '***************'; //your API key
 
-
+$username = ''; //leave empty
 // Initialize a new cURL session
 $ch = curl_init($url);
 
