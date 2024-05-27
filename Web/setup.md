@@ -24,18 +24,18 @@ The following instructions will guide you through setting up and using this code
 
 2. **Configure the PHP Script**
    - Copy the PHP script provided below.
-   - Replace `<yourURL>/metrics` with your actual Uptime Kuma metrics URL. (line 3)
-   - Replace `***************` with your actual API key. (line 6)
+   - Replace `<yourURL>/metrics` with your actual Uptime Kuma metrics URL. ([line 3](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L3))
+   - Replace `***************` with your actual API key. ([line 6](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L6))
 
 3. **That's it!** Now please start with the Discord Bot setup.
 
 
 ### Code Pieces Referenced by Lines
 
-- **Lines 3-5**: Define the URL and API key for the metrics endpoint.
-- **Lines 8-11**: Initialize a new cURL session and set cURL options.
-- **Lines 14-16**: Execute the cURL session and get the HTTP status code.
-- **Lines 19-21**: Close the cURL session and check if the request was successful.
-- **Lines 23-41**: Parse the response and extract relevant data.
-- **Lines 44-46**: Set the content type of the response to JSON and output the data.
-- **Lines 48-50**: Output an error message if the request was not successful.
+- **[Lines 3-5](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L3-L5)**: Define the URL and API key for the metrics endpoint.
+- **[Lines 8-11](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L8-L11)**: Initialize a new cURL session and set cURL options.
+- **[Lines 14-16](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L14-L16)**: Execute the cURL session and get the HTTP status code.
+- **[Lines 19-21](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L19-L21)**: Close the cURL session and check if the request was successful.
+- **[Lines 23-41](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L23-L41)**: Parse the response and extract relevant data.
+- **[Lines 44-46](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L44-L46)**: Set the content type of the response to JSON and output the data.
+- **[Lines 48-50](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L48-L50)**: Output an error message if the request was not successful.
