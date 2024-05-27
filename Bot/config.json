@@ -1,7 +1,7 @@
 {
-    "token": "<TOKEN>",
-    "guildID": "<GUID>",
-    "channelID": "<CHANNEL>",
-    "clientID": "1241485556949450915",
-    "updatetime": "5"
+    "token": "<token>",
+    "guildID": "<guildID>",
+    "channelID": "<channelID>",
+    "clientID": "<ClientID>",
+    "updatetime": "<Update frequency in seconds>"
 }
