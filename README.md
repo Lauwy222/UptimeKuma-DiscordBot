@@ -1,3 +1,6 @@
+[![GitHub stars](https://img.shields.io/github/stars/Lauwy222/UptimeKuma-DiscordBot.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Lauwy222/UptimeKuma-DiscordBot/stargazers/)
+[![GitHub forks](https://img.shields.io/github/forks/Lauwy222/UptimeKuma-DiscordBot.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/Lauwy222/UptimeKuma-DiscordBot/network/)
+
 # Uptime Kuma X Discord
 
 You might have wondered if there's a tool to set your service statuses in Discord, whether it's your Minecraft server or your website. There are players who are curious to see the status but are too lazy to open the URL.
