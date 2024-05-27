@@ -31,11 +31,14 @@ The following instructions will guide you through setting up and using this code
 
 
 ### Code Pieces Referenced by Lines
-
 - **[Lines 3-5](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L3-L5)**: Define the URL and API key for the metrics endpoint.
-- **[Lines 8-11](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L8-L11)**: Initialize a new cURL session and set cURL options.
-- **[Lines 14-16](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L14-L16)**: Execute the cURL session and get the HTTP status code.
-- **[Lines 19-21](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L19-L21)**: Close the cURL session and check if the request was successful.
-- **[Lines 23-41](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L23-L41)**: Parse the response and extract relevant data.
-- **[Lines 44-46](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L44-L46)**: Set the content type of the response to JSON and output the data.
-- **[Lines 48-50](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L48-L50)**: Output an error message if the request was not successful.
+- **[Lines 7-9](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L7-L9)**: Retrieve the API key from the UptimeKuma dashboard and assign it to the `$password` variable.
+- **[Lines 11-13](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L11-L13)**: Initialize a new cURL session with the given URL.
+- **[Lines 15-18](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L15-L18)**: Set cURL options for returning the transfer as a string, using basic HTTP authentication, and setting the username and password for the connection.
+- **[Lines 20-22](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L20-L22)**: Execute the cURL session and store the response.
+- **[Lines 24-26](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L24-L26)**: Get the HTTP status code of the response.
+- **[Lines 28-30](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L28-L30)**: Close the cURL session.
+- **[Lines 32-34](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L32-L34)**: Check if the request was successful by comparing the HTTP status code to 200.
+- **[Lines 36-53](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L36-L53)**: If the request was successful, parse the response using a regular expression to extract relevant data, and construct an array of the parsed data.
+- **[Lines 55-57](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L55-L57)**: Set the content type of the response to JSON and output the data in JSON format.
+- **[Lines 59-61](https://github.com/Lauwy222/UptimeKuma-DiscordBot/blob/main/Web/back-end.php#L59-L61)**: Output an error message if the request was not successful, including the HTTP status code in the message.
